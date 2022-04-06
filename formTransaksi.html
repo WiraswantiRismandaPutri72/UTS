@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>Delicous Seafood Restoran</h1>
+            </header>
+            <nav>
+                <ul>
+                    <li><a href="formUpload.html">Tambah Foto</a></li>
+                    <li><a href="formTransaksi.html">Transaksi</a></li>
+                    <li><a href="form.html">Menu</a></li>
+                </ul>
+            </nav>
+            <form action="prosesTransaksi.php" method="GET">
+                <br>
+                <b>Menambah Foto Menu</b><br><br>
+                <label>Nama Pembeli : </label>
+                <input type="text" name="nama" size="11"><br><br>
+                <label>Status Pembeli : </label>
+                <select name="status" size="1">
+                    <option value="Member">Member
+                    <option value="Bukan Member">Bukan Member
+                </select><br><br>
+                <label>Menu : </label>
+                <select name="menu" size="1">
+                    <option value="Paket 1">Paket 1</option>
+                    <option value="Paket 2">Paket 2</option>
+                    <option value="Paket 3">Paket 3</option>
+                </select><br><br>
+                <label>Jumlah : </label>
+                <input type="text" name="jumlah" size="20"><br><br>
+                <input type="submit" name="hitung" placeholder="HITUNG">
+            </form>
+            </form>
+            <br><br><br><br><br><br><br><br><br><br><br>
+            <footer>
+                Website Footer
+            </footer> 
+    </body>
+</html>

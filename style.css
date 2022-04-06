@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #e6e6e6;
+    padding: 0;
+    margin:0;
+    
+}
+
+.container{
+    width: 69%;
+    height: auto;
+    background: white;
+    margin:auto;
+    margin-top: 5px;
+    padding-bottom: 5px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #95b8d1;
+    border: 1px solid gainsboro;
+}
+
+nav li {
+    float: right;
+}
+
+nav li a{
+    display: inline-block;
+    color:#ffffff;
+    text-align: center;
+    padding: 14px 15px;
+    text-decoration: none;
+}
+
+footer {
+    max-width: 1080px;
+    padding : 10px;
+    overflow: hidden;
+    margin : 5px auto;
+    background : #95b8d1;
+    text-align: center;
+    color: white;
+}
